@@ -5,12 +5,12 @@ https://www.kaggle.com/c/fake-news/data
 ## kaggle notebook link
 https://www.kaggle.com/kagglepankaj/fake-news-classifier-with-lightgbm-90-accuracy
 ## Preprocessing steps
-1.remove all Non alphabetic char and punctuations.
-2.convert to lower case.
-3.Lemmatize the word(converting to root form).
+* 1.remove all Non alphabetic char and punctuations.
+* 2.convert to lower case.
+* 3.Lemmatize the word(converting to root form).
 ## Feature generation
-1.Count the number of noun,proper noun,pronouns by pos tagging(part of speech tagging).
-2.Count the number of person,place,organisation,political groups in the news article.
+* 1.Count the number of noun,proper noun,pronouns by pos tagging(part of speech tagging).
+* 2.Count the number of person,place,organisation,political groups in the news article.
 ## Vectorization (bags of word).
 Created vector using n-grame(10) Tfidf vectorizer, combined this with the previously created features.
 ## feature selection.
